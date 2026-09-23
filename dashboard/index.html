@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KannaGuard — Moderation Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="wordmark">KannaGuard</div>
+    <div class="tagline">A live moderation console for Kannada–English YouTube comments</div>
+  </div>
+</header>
+
+<main class="console">
+
+  <section class="scan-bar">
+    <input type="text" id="video-id-input" placeholder="YouTube video ID — e.g. oo10nzM8u2g">
+    <input type="number" id="max-comments-input" value="300" min="10" max="1000" aria-label="Max comments">
+    <button id="scan-btn">Scan</button>
+  </section>
+
+  <div id="loading" class="loading hidden">Reading comments and running both models…</div>
+  <div id="error-box" class="error-box hidden"></div>
+
+  <section id="ticker" class="ticker hidden">
+    <div class="ticker-stat">
+      <div class="ticker-number" id="stat-time-saved">—</div>
+      <div class="ticker-label">Minutes saved</div>
+    </div>
+    <div class="ticker-stat">
+      <div class="ticker-number" id="stat-percent-filtered">—</div>
+      <div class="ticker-label">Filtered automatically</div>
+    </div>
+    <div class="ticker-stat flag">
+      <div class="ticker-number" id="stat-flagged">—</div>
+      <div class="ticker-label">Auto-flagged</div>
+    </div>
+    <div class="ticker-stat review">
+      <div class="ticker-number" id="stat-review">—</div>
+      <div class="ticker-label">Needs review</div>
+    </div>
+    <div class="ticker-stat">
+      <div class="ticker-number" id="stat-live">—</div>
+      <div class="ticker-label">Still live on YouTube</div>
+    </div>
+  </section>
+
+  <section id="log-section" class="log-section hidden">
+    <div class="log-header">
+      <h2>Flagged log</h2>
+      <span class="log-count" id="log-count"></span>
+    </div>
+    <div id="log-list" class="log-list"></div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

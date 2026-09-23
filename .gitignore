@@ -1,0 +1,15 @@
+# Ignore heavy model weight directories
+backend/models/
+experiments/quantized_models/
+
+# Ignore Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Ignore system/environment secrets
+.env
+.DS_Store

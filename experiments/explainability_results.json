@@ -1,0 +1,308 @@
+[
+  {
+    "text": "Ellarannu nenige hakabeku",
+    "base_tier": "Needs Review",
+    "base_score": 0.9288,
+    "tokens": [
+      {
+        "token": "Ellarannu",
+        "importance_delta": 0.9288,
+        "occluded_score": 0.0,
+        "relative_attribution_pct": 33.33
+      },
+      {
+        "token": "nenige",
+        "importance_delta": 0.9288,
+        "occluded_score": 0.0,
+        "relative_attribution_pct": 33.33
+      },
+      {
+        "token": "hakabeku",
+        "importance_delta": 0.9288,
+        "occluded_score": 0.0,
+        "relative_attribution_pct": 33.33
+      }
+    ]
+  },
+  {
+    "text": "Chandn ಎಕಪ್ಪ ಈಗ ಉಳ ಬಿಟ್ಟು ಕೊಂಡಿದೀಯ ನೀ ಎಸ್ಪ ದುಡ್ಡು ತಗೊಂಡಿಯ",
+    "base_tier": "Needs Review",
+    "base_score": 0.9986,
+    "tokens": [
+      {
+        "token": "Chandn",
+        "importance_delta": -0.0006,
+        "occluded_score": 0.9992,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "ಎಕಪ್ಪ",
+        "importance_delta": 0.0004,
+        "occluded_score": 0.9982,
+        "relative_attribution_pct": 10.0
+      },
+      {
+        "token": "ಈಗ",
+        "importance_delta": 0.0007,
+        "occluded_score": 0.9979,
+        "relative_attribution_pct": 17.5
+      },
+      {
+        "token": "ಉಳ",
+        "importance_delta": -0.0003,
+        "occluded_score": 0.9989,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "ಬಿಟ್ಟು",
+        "importance_delta": 0.0002,
+        "occluded_score": 0.9984,
+        "relative_attribution_pct": 5.0
+      },
+      {
+        "token": "ಕೊಂಡಿದೀಯ",
+        "importance_delta": 0.0,
+        "occluded_score": 0.9986,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "ನೀ",
+        "importance_delta": 0.0004,
+        "occluded_score": 0.9982,
+        "relative_attribution_pct": 10.0
+      },
+      {
+        "token": "ಎಸ್ಪ",
+        "importance_delta": 0.002,
+        "occluded_score": 0.9966,
+        "relative_attribution_pct": 50.0
+      },
+      {
+        "token": "ದುಡ್ಡು",
+        "importance_delta": 0.0003,
+        "occluded_score": 0.9983,
+        "relative_attribution_pct": 7.5
+      },
+      {
+        "token": "ತಗೊಂಡಿಯ",
+        "importance_delta": 0.0,
+        "occluded_score": 0.9986,
+        "relative_attribution_pct": 0.0
+      }
+    ]
+  },
+  {
+    "text": "Taj Mahal story henge agidu.. hindu palace ge bandu akrama madkondu mele gommata madi adhu muslim.",
+    "base_tier": "Auto-Flag",
+    "base_score": 0.9991,
+    "tokens": [
+      {
+        "token": "Taj",
+        "importance_delta": -0.0002,
+        "occluded_score": 0.9993,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "Mahal",
+        "importance_delta": -0.0003,
+        "occluded_score": 0.9994,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "story",
+        "importance_delta": 0.0001,
+        "occluded_score": 0.999,
+        "relative_attribution_pct": 0.65
+      },
+      {
+        "token": "henge",
+        "importance_delta": 0.0003,
+        "occluded_score": 0.9988,
+        "relative_attribution_pct": 1.95
+      },
+      {
+        "token": "agidu..",
+        "importance_delta": 0.0,
+        "occluded_score": 0.9991,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "hindu",
+        "importance_delta": 0.0002,
+        "occluded_score": 0.9989,
+        "relative_attribution_pct": 1.3
+      },
+      {
+        "token": "palace",
+        "importance_delta": 0.0001,
+        "occluded_score": 0.999,
+        "relative_attribution_pct": 0.65
+      },
+      {
+        "token": "ge",
+        "importance_delta": 0.0002,
+        "occluded_score": 0.9989,
+        "relative_attribution_pct": 1.3
+      },
+      {
+        "token": "bandu",
+        "importance_delta": 0.0002,
+        "occluded_score": 0.9989,
+        "relative_attribution_pct": 1.3
+      },
+      {
+        "token": "akrama",
+        "importance_delta": 0.0001,
+        "occluded_score": 0.999,
+        "relative_attribution_pct": 0.65
+      },
+      {
+        "token": "madkondu",
+        "importance_delta": 0.0,
+        "occluded_score": 0.9991,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "mele",
+        "importance_delta": -0.0001,
+        "occluded_score": 0.9992,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "gommata",
+        "importance_delta": 0.0,
+        "occluded_score": 0.9991,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "madi",
+        "importance_delta": -0.0001,
+        "occluded_score": 0.9992,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "adhu",
+        "importance_delta": 0.0006,
+        "occluded_score": 0.9985,
+        "relative_attribution_pct": 3.9
+      },
+      {
+        "token": "muslim.",
+        "importance_delta": 0.0136,
+        "occluded_score": 0.9855,
+        "relative_attribution_pct": 88.31
+      }
+    ]
+  },
+  {
+    "text": "ಹಿಂದೂ ದೇವಾಲಯಗಳನ್ನು ಕೆಡವಿ ಕಟ್ಟಿದಾರೆ",
+    "base_tier": "Auto-Flag",
+    "base_score": 0.993,
+    "tokens": [
+      {
+        "token": "ಹಿಂದೂ",
+        "importance_delta": 0.083,
+        "occluded_score": 0.91,
+        "relative_attribution_pct": 82.42
+      },
+      {
+        "token": "ದೇವಾಲಯಗಳನ್ನು",
+        "importance_delta": -0.0054,
+        "occluded_score": 0.9984,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "ಕೆಡವಿ",
+        "importance_delta": 0.0177,
+        "occluded_score": 0.9753,
+        "relative_attribution_pct": 17.58
+      },
+      {
+        "token": "ಕಟ್ಟಿದಾರೆ",
+        "importance_delta": -0.004,
+        "occluded_score": 0.997,
+        "relative_attribution_pct": 0.0
+      }
+    ]
+  },
+  {
+    "text": "En guru idu thumba worst aagide",
+    "base_tier": "Auto-Flag",
+    "base_score": 0.9817,
+    "tokens": [
+      {
+        "token": "En",
+        "importance_delta": -0.001,
+        "occluded_score": 0.9827,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "guru",
+        "importance_delta": -0.0097,
+        "occluded_score": 0.9914,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "idu",
+        "importance_delta": -0.0085,
+        "occluded_score": 0.9902,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "thumba",
+        "importance_delta": -0.0169,
+        "occluded_score": 0.9986,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "worst",
+        "importance_delta": 0.8544,
+        "occluded_score": 0.1273,
+        "relative_attribution_pct": 100.0
+      },
+      {
+        "token": "aagide",
+        "importance_delta": -0.0116,
+        "occluded_score": 0.9933,
+        "relative_attribution_pct": 0.0
+      }
+    ]
+  },
+  {
+    "text": "Super video sir, nice explanation",
+    "base_tier": "No Action",
+    "base_score": 0.0,
+    "tokens": [
+      {
+        "token": "Super",
+        "importance_delta": -0.0029,
+        "occluded_score": 0.0029,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "video",
+        "importance_delta": -0.0021,
+        "occluded_score": 0.0021,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "sir,",
+        "importance_delta": 0.0,
+        "occluded_score": 0.0,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "nice",
+        "importance_delta": 0.0,
+        "occluded_score": 0.0,
+        "relative_attribution_pct": 0.0
+      },
+      {
+        "token": "explanation",
+        "importance_delta": 0.0,
+        "occluded_score": 0.0,
+        "relative_attribution_pct": 0.0
+      }
+    ]
+  }
+]

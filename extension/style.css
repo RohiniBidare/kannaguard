@@ -1,0 +1,27 @@
+.mod-flagged {
+  border-left: 4px solid;
+  padding-left: 8px !important;
+  border-radius: 4px;
+}
+
+.mod-toxic {
+  border-color: #d32f2f;
+  background-color: rgba(211, 47, 47, 0.06);
+}
+
+.mod-review {
+  border-color: #f9a825;
+  background-color: rgba(249, 168, 37, 0.08);
+}
+
+.mod-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin-right: 6px;
+  background: #333;
+  color: white;
+  vertical-align: middle;
+}

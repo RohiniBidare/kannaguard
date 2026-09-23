@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Kannada-English Comment Moderator",
+  "version": "1.0",
+  "description": "Flags Hate Speech and Offensive comments on YouTube in Kannada-English code-mixed text.",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["https://www.youtube.com/*", "http://127.0.0.1:8000/*", "http://localhost:8000/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Comment Moderator"
+  }
+}

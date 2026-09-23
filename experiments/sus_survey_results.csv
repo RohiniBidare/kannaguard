@@ -1,0 +1,6 @@
+user,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,raw_sum,sus_score
+Moderator_1 (News),5,1,5,1,4,2,5,1,4,1,37,92.5
+Moderator_2 (Debate),4,2,4,1,5,2,4,2,4,1,33,82.5
+Creator_1 (Tech/Vlog),5,1,4,1,4,1,5,1,5,2,37,92.5
+Creator_2 (Entertainment),4,2,4,2,4,2,4,1,4,1,32,80.0
+Creator_3 (Education),5,1,5,1,5,2,5,1,4,1,38,95.0

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font-family: -apple-system, Arial, sans-serif; width: 240px; padding: 14px; margin: 0; }
+    h2 { font-size: 15px; margin: 0 0 12px 0; }
+    .row { display: flex; justify-content: space-between; padding: 6px 0; font-size: 13px; border-bottom: 1px solid #eee; }
+    .label { font-weight: 600; }
+    .flag { color: #d32f2f; }
+    .review { color: #f9a825; }
+    .none { color: #388e3c; }
+    .footer { margin-top: 10px; font-size: 11px; color: #888; }
+  </style>
+</head>
+<body>
+  <h2>Comment Moderation Summary</h2>
+  <div class="row"><span class="label flag">Auto-Flagged</span><span id="flag-count">0</span></div>
+  <div class="row"><span class="label review">Needs Review</span><span id="review-count">0</span></div>
+  <div class="row"><span class="label none">No Action</span><span id="none-count">0</span></div>
+  <div class="footer">Live analysis of comments on this video page.</div>
+  <script src="popup.js"></script>
+</body>
+</html>
